@@ -35,6 +35,8 @@ pip install flask psutil
 ```
 💡 No se instalan globalmente, solo dentro del entorno virtual.
 
+-----------------------------------------------------------------------------------------
+
 🔹 Alternativa: instalación global desde los repositorios del sistema
 
 Si se prefiere no usar un entorno virtual, las dependencias también se pueden instalar desde los paquetes del sistema:
@@ -45,6 +47,8 @@ apt search python3-psutil
 sudo apt install python3-flask python3-psutil
 ```
 En este caso, no es necesario crear un entorno virtual, pero se recomienda igualmente para mantener el entorno limpio y reproducible.
+
+------------------------------------------------------------------------------------------
 
 🔹 Configurar la interfaz de red (NIC)
 
