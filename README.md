@@ -52,6 +52,9 @@ En este caso, no es necesario crear un entorno virtual, pero se recomienda igual
 
 En el archivo app.py, modifique el nombre de la interfaz de red (NIC) para que coincida con la de su sistema.
 ```console
+# ============================================================
+# ⚙️ Configuración general
+# ============================================================
 nic = 'eno1'  # Ejemplo: 'ppp0', 'enp2s0', 'enp3s0', 'eth0'
 ```
 🖥️  Ejecución del servidor
