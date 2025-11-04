@@ -58,7 +58,7 @@ LOG_FAIL2BAN = Path("/var/log/fail2ban.log")
 #from flask_cors import CORS
 #CORS(app)  # Habilita CORS para todas las rutas y orígenes
 
-nic = 'eno1'
+nic = 'eno1'  # Ejemplo: 'ppp0', 'enp2s0', 'enp3s0', 'eth0'
 
 # ===============================
 # 📦 Inicialización de base de datos SQLite
