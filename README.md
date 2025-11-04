@@ -23,7 +23,7 @@ Opcional: Fail2Ban para obtener IPs bloqueadas
 
 🔹 Clonar el repositorio
 ```console
-git clone https://github.com/tuusuario/router-dashboard.git
+git clone https://github.com/vldmr-d/router-dashboard.git
 cd router-dashboard
 ```
 🔹 Crear entorno virtual (recomendado)
