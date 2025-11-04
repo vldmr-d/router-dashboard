@@ -1,0 +1,62 @@
+/* Estilo unificado para todas las tarjetas */
+body {
+    background-color: #1d1f21;
+    color: #eaeaea;
+    font-family: "Segoe UI", sans-serif;
+    padding: 10px;
+}
+
+.chart-container {
+    position: relative;
+    margin: 30px auto;
+    width: 95%;
+    max-width: 1100px;  /* limita ancho máximo */
+    background: #2b2f35;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+canvas {
+    width: 100% !important;
+    height: 400px !important;  /* ajusta altura según tu preferencia */
+}
+
+h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #9cdcfe;
+    font-size: 1rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Ajustar el canvas para que use todo el ancho */
+.chart-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Estilo Pi-hole para gráficos */
+.chart-container {
+    height: 260px;
+    /* background-color: white; */
+    border-radius: 8px;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+}
+
+/* Estilo para las etiquetas del eje X (horas rotadas) */
+/* .chart-x-labels {
+    font-size: 0.7rem;
+    color: #666;
+} */
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .chart-container {
+        height: 220px;
+    }
+
+}
