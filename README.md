@@ -23,13 +23,11 @@ Opcional: Fail2Ban para obtener IPs bloqueadas
 
 🔹 Clonar el repositorio
 ```console
-git clone https://github.com/vldmr-d/router-dashboard.git
-cd router-dashboard
+git clone https://github.com/vldmr-d/router-dashboard.git && cd router-dashboard
 ```
 🔹 Crear entorno virtual (recomendado)
 ```console
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv && source venv/bin/activate
 ```
 🔹 Instalar dependencias
 ```console
